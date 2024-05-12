@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Maya: Constitution of Malaysia</title>
+    <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+    <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+    <link rel="icon" type="image/x-icon" href="./malaya.svg">
+
+</head>
+<body>
+    <df-messenger
+  project-id="abacus-chatbot"
+  agent-id="0af6d95a-6388-4fc6-b4bf-f1618cb3a661"
+      language-code="en"
+        allow-feedback="all"
+      max-query-length="-1">
+      <df-messenger-chat
+       chat-title="Maya Chatbot" bot-writing-text="typing ..." 
+        placeholder-text="Talk to me about Constitution of Malaysia" bot-actor-image="human1.png" user-actor-image="human_user.png"
+          chat-title-icon="malaya.svg">
+      </df-messenger-chat>
+    </df-messenger>
+    <style>
+      df-messenger {
+        z-index: 999;
+        position: fixed;
+          --df-messenger-titlebar-title-font-size:24px;      
+          --df-messenger-titlebar-icon-height:45px;
+          --df-messenger-titlebar-icon-width:45px;
+        --df-messenger-message-bot-background:#c4f2c8;
+          --df-messenger-titlebar-font-color:#0369BB;
+          --df-messenger-send-icon-color-hover:#0b57d0;
+          --df-messenger-titlebar-subtitle-font-weight:1100;
+        bottom: 0;
+        right: 0;
+        top: 0;
+        width: 100%;
+      }
+
+    </style>
+</body>
+</html>
